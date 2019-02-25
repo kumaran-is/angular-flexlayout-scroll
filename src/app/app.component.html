@@ -1,7 +1,7 @@
-<div class="container" >
+<div class="container" fxLayout="column" >
   <header role="heading" >Header</header>
-    <main role="main" >
-      <section class="content">
+    <main role="main" fxLayout="row" fxLayout.xs="column" >
+      <section class="content" fxFlex="5">
         Main Content
         <br><br><br>scrolling Test Content1<br><br><br><br>
         <br><br><br>scrolling Test Content2<br><br><br><br>
@@ -16,8 +16,8 @@
         <br><br><br>scrolling Test Content11<br><br><br><br>
         <br><br><br>scrolling Test Content12<br><br><br><br>
       </section>
-      <nav role="navigation" >Nav</nav>
-      <aside role="complementary" >Aside</aside>
+      <nav role="navigation" fxFlexOrder="-1" fxFlex="1" >Nav</nav>
+      <aside role="complementary" fxFlex="1" >Aside</aside>
     </main>
   <footer role="contentinfo" >Footer</footer>
 </div>
